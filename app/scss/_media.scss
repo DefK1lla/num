@@ -1,0 +1,208 @@
+@media (max-width: 1067px) {
+  .footer {
+    &__support {
+      padding-right: 25px;
+    }
+  }
+}
+
+@media (max-width: 1025px) {
+  .intro {
+
+    &__text,
+    &__start-date {
+      text-align: center;
+    }
+  }
+
+  .footer {
+    &__support {
+      text-align: center;
+
+      border: 0;
+    }
+
+    &__contacts {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .about {
+    &__text {
+      text-align: center;
+    }
+  }
+
+  .forecast {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 640px) {
+  .reviews {
+    &__prev {
+      left: 100px;
+      top: 105%;
+    }
+
+    &__next {
+      right: 100px;
+      top: 105%;
+    }
+  }
+
+  .forecast {
+    &__title {
+      font-size: 45px;
+    }
+  }
+
+  .month {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 28px;
+
+    i {
+      font-size: 30px;
+    }
+  }
+
+  .intro {
+    &__title {
+      font-size: 44px;
+      text-align: center;
+
+      i {
+        font-size: 40px;
+      }
+    }
+
+    &__offer {
+      padding: 35px;
+    }
+  }
+
+  .month {
+    &__title {
+      font-size: 44px;
+    }
+
+    &__list {
+      &--bullet {
+        li {
+          padding-left: 20px;
+
+          &::before {
+            left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .consultation {
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+    }
+
+    &__text,
+    &__item {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 470px) {
+  .forecast {
+    &__title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  .intro {
+    &__title {
+      font-size: 35px;
+      text-align: center;
+
+      i {
+        font-size: 32px;
+      }
+    }
+  }
+
+  .audience {
+    &__item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  .module {
+    padding: 0 25px 60px;
+
+    &__date {
+      margin-left: 0;
+      font-size: 20px;
+    }
+
+    &__title {
+      font-size: 24px;
+    }
+
+    &__subtitle {
+      font-size: 22px;
+    }
+  }
+
+  .month {
+    &__list-title {
+      &::before {
+        top: 0;
+      }
+    }
+
+    &__list-wrapper {
+      padding: 30px;
+    }
+
+    &__list--star {
+      li {
+        padding-left: 25px;
+
+        &::before {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  }
+
+  .consultation {
+    &__item {
+      padding-left: 50px;
+
+      &::before {
+        left: 0;
+      }
+    }
+  }
+}
